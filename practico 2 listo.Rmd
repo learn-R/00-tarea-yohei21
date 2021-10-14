@@ -1,0 +1,27 @@
+#practico numero dos
+## Yaml:
+---
+title: "Practico 2"
+author: "Javier González Sáenz"
+date: "26-08-2021"
+output: 
+  html_document: 
+    theme: simplex
+---
+## Chunks:
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = TRUE,
+	warning = TRUE
+)
+```
+## imagen grafico
+![](input/img/grafico01.jpg)
+
+## Tabla simple
+
+Año| Sexo
+---|------
+27 | hombre
+26 | mujer
